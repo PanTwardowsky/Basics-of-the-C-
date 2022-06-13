@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nosov.Utils\Nosov.Utils.csproj">
+      <Project>{f16eba9f-4bb6-4277-8ab4-a356dc2f19e6}</Project>
+      <Name>Nosov.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

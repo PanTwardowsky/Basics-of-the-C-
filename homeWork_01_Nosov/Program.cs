@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Nosov.Utils;
+
 
 
 // Nosov Roman Gennad'evich
 
-namespace homeWork_01_Nosov
+namespace homeWork_Nosov
 {
+
+    #region Homework01
     internal class HomeWork_01
     {
         static void Profile()
@@ -54,7 +58,7 @@ namespace homeWork_01_Nosov
 
         }
 
-        static void BMI()
+        public static void BMI()
         {
             double Height;
             double Weight;
@@ -134,17 +138,26 @@ namespace homeWork_01_Nosov
 
         }
 
+        #endregion
+
+
         static void Main(string[] args)
         {
             //profile();
 
             //BMI();
 
-            // Coordinates();
+            //Coordinates();
 
             //Exchange();
 
             //MyData("Роман", "Носов", "Санкт-Петербург");
+
+            OutputHelpers.PrintInfo(2, "Носов Роман Геннадьевич");
+            Console.ReadKey();
+
+
+         
 
 
 
